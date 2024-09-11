@@ -2,3 +2,43 @@ html {
     height: 100%;
     width: 100%;
 }
+body {
+    font-family: 'Dosis', sans-serif;
+    background-color:grey;
+    color:azure;
+    
+}
+header{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header img{
+    height: 250px;
+}
+main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.musiciens{
+    width:65%
+}
+.musiciens h2{
+    margin-left: -32px;
+    margin-top: 0px;
+}
+.musiciens ol{
+   
+    width: 100%;
+    margin-left: -45px;
+}
+.lien{
+
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    width:33%
+}
