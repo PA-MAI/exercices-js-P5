@@ -1,3 +1,11 @@
 //votre code ici
+let result = '';
+export default function printNumbers(n) {
+    for (let i = 1; i <= n; i++) {
+        result += i + ' '; 
 
-export default printNumbers
+    }
+    return result.trim();
+}
+console.log(printNumbers(5));
+
