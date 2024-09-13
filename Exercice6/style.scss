@@ -1,7 +1,8 @@
 $blue: #0000ff;
-ul li{
+ul {
     color: $blue;
+    li{
     padding-left: 10px;
     margin-bottom: 15px;
-    
+}
 }

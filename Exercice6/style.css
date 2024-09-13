@@ -1,5 +1,7 @@
-ul li {
+ul {
   color: #0000ff;
+}
+ul li {
   padding-left: 10px;
   margin-bottom: 15px;
 }/*# sourceMappingURL=style.css.map */
