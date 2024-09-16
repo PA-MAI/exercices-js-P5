@@ -8,18 +8,22 @@ font-weight:bold;
 }
 main{
     display:flex;
-    flex-direction:row-reverse;
+    flex-direction:row;
     background-color: #E6F2FF;
-    margin:20px;
+    
     justify-content: space-between;
     
 }
 aside{
     background-color: #B3D9FF;
     border: 1px solid #CCC;
+    flex: 1 1 0%;
     
 }
-
+section{
+    margin:20px;
+    flex: 3 1 0%;
+}
 footer{
     background-color: #99CC99;
     border: 1px solid #CCC;
